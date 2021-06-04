@@ -50,32 +50,53 @@ table {
 * {
     box-sizing: border-box;
 }
+section{
+    padding:4% 0;
+}
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
-    line-height: 1.4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    line-height: 1.7;
 }
 
 .container {
     width: 800px;
-    margin: 0 auto;
+    margin: 5%;
+    padding-top:3px;
 }
-
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration:none;
+    color:#4f4f4f;
+}
+.link{
+    width:80%;
+    display:flex;
+    justify-content: space-evenly;
+}
+header{
+    margin:1%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
     border-bottom: 1px dashed black;
 }
 
@@ -86,7 +107,7 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px dashed black;
 }
 
@@ -101,12 +122,101 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+/* .middle-content .boxes{
+    width: 100%;
+    height: 100px;
+    margin: 100px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.box1{
+    background-color: teal;
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    background-color: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    background-color: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    background-color: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box5{
+    background-color: crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box6{
+    background-color: forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box7{
+    background-color: darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box8{
+    background-color: hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box9{
+    background-color: indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box10{
+    background-color: dodgerblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -143,4 +253,44 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/* about.html */
+.diagram{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed black;
+    flex-direction: column; 
+    padding: 0%;
+    width: 95%;
+}
+.section1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.section2{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+button{
+    width:40%;
+    border-radius:10%;
+    background-color: white;
+    border: 2px solid black;
+    padding:10px;
+    font-weight: bold;
+    margin: 10px;
+}
+.container1{
+    padding:5px;
+    border-bottom: 1px dashed black;
+}
+body{
+    display:flex;
+    justify-content: center;
 }
