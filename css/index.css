@@ -58,7 +58,6 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
-
 h1, h2, h3, h4, h5 {
     font-size: 20px;
     margin-bottom: 15px;
@@ -66,12 +65,15 @@ h1, h2, h3, h4, h5 {
 }
 
 p {
+    padding-top: 5px;
+    padding-bottom: 5px;
     line-height: 1.7;
 }
 
 .container {
     width: 800px;
-    margin: 7%;
+    margin: 5%;
+    padding-top:3px;
 }
 nav{
     display:flex;
@@ -88,13 +90,13 @@ a{
     justify-content: space-evenly;
 }
 header{
-    margin:5%;
+    margin:1%;
 }
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 3px;
     border-bottom: 1px dashed black;
 }
 
@@ -105,7 +107,7 @@ header{
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 1px dashed black;
 }
 
@@ -260,7 +262,7 @@ footer nav a {
     margin-bottom: 10px;
     border-bottom: 1px dashed black;
     flex-direction: column; 
-    padding: 10%;
+    padding: 0%;
     width: 95%;
 }
 .section1{
@@ -273,17 +275,19 @@ footer nav a {
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 button{
     width:40%;
     border-radius:10%;
     background-color: white;
     border: 2px solid black;
-    padding:7px;
+    padding:10px;
     font-weight: bold;
+    margin: 10px;
 }
 .container1{
+    padding:5px;
     border-bottom: 1px dashed black;
 }
 body{
